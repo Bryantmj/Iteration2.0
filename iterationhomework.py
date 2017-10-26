@@ -26,7 +26,6 @@ def average(scores):
 
 def improved_average(scores):
     current_min = scores[0]
-    curren_min_placement = -1
     for n in scores:
         if n <= current_min:
             current_min = n
