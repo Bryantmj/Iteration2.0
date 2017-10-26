@@ -16,13 +16,11 @@ def print_scores(names, scores):
         print names[i] , " scored " , scores[i]
 
 def average(scores):
-        total = n
-        for n in scores:
-            total += n
-        
-        return total / len(scores)
+    for n in scores:
+        total += n
         for n in scores:
             print "Average test score is" , scores[n]
+            return total / len(scores)
 
 def improved_average(scores):
     for n in scores:
