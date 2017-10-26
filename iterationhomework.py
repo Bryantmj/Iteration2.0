@@ -16,7 +16,7 @@ def print_scores(names, scores):
         print names[i] , " scored " , scores[i]
 
 def average(scores):
-        total = 0
+        total = n
         for n in scores:
             total += n
         
@@ -25,20 +25,14 @@ def average(scores):
             print "Average test score is" , scores[n]
 
 def improved_average(scores):
-    current_min = scores[0]
     for n in scores:
         if n <= current_min:
             current_min = n
-        
-    scores.remove(current_min)
-    current_min2 = scores[0]
 
     for n in scores:
         if n <= current_min2:
             current_min2 = n
-
-    scores.removed(current_min2)
-
+            
     sum_of_improved_average = 0
     for n in scores:
         sum_of_improved_average += n
