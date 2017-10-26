@@ -33,10 +33,10 @@ def improved_average(scores):
         if n <= current_min2:
             current_min2 = n
             
-    sum_of_improved_average = 0
+    improved_average = 0
     for n in scores:
-        sum_of_improved_average += n
+       improved_average += n
 
-    return sum_of_improved_scores / len(scores)
+    return improved_scores / len(scores)
     for n in scores:
         print "Improved test score is" , improved_average
